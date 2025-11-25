@@ -92,6 +92,7 @@ def recommend_venues_for_user(
         recos.append(
             VenueReco(
                 venue_id=v.id,
+                venue_name=v.name,
                 score=float(venue_score),
                 distance_km=float(dist_km),
             )

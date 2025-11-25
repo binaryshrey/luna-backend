@@ -3,6 +3,7 @@ from uuid import UUID
 
 class VenueReco(BaseModel):
     venue_id: UUID
+    venue_name: str
     score: float
     distance_km: float
 
