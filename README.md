@@ -1,4 +1,8 @@
-# Luna Backend – Track 2
+# Luna Backend – Track 2 ![Supabase Database](https://img.shields.io/badge/Database-Supabase-3ECF8E?logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white) ![Render](https://img.shields.io/badge/Hosted%20on-Render-46E3B7?logo=render&logoColor=white) ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white) ![Built with FastAPI](https://img.shields.io/badge/Built%20with-FastAPI-009688?logo=fastapi&logoColor=white) ![Pytest](https://img.shields.io/badge/Pytest-Tests%20Passing-0A9EDC?logo=pytest&logoColor=white)
+
+
+
+
 
 This repository contains my implementation for Luna take home assignment.
 
@@ -279,7 +283,7 @@ The server will be available at:
 
 The service is deployed on render.com with the LIVE url as : [https://luna-backend-shkw.onrender.com/docs/](https://luna-backend-shkw.onrender.com/docs/)
 
-![Live](https://raw.githubusercontent.com/binaryshrey/luna-backend/refs/heads/main/res/live.png)
+![Deploy](https://raw.githubusercontent.com/binaryshrey/luna-backend/refs/heads/main/res/deploy.png)
 
 <br/>
 
