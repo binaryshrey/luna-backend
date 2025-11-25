@@ -10,6 +10,8 @@ It provides:
 - An **agent flow** that creates a **booking** when a plan is confirmed.
 - A clean, modular **FastAPI + Postgres (Supabase)** backend designed so that the current heuristic ML models can be upgraded to more advanced ML models without changing the public APIs.
 
+![API Docs](https://raw.githubusercontent.com/binaryshrey/luna-backend/refs/heads/main/res/docs.png)
+
 <br/>
 
 ## Contents
@@ -189,7 +191,13 @@ Add:
 ```
 DATABASE_URL=postgresql+psycopg2://<user>:<password>@<host>:5432/<database>
 ```
-Note: +psycopg2 ensures SQLAlchemy uses the psycopg2 driver.
+
+### Below is the snapshot of DB schema under Supabase
+![DB Schema](https://raw.githubusercontent.com/binaryshrey/luna-backend/refs/heads/main/res/db_schema.png)
+
+### Below is the snapshot of DB Tables under Supabase
+![DB Tables](https://raw.githubusercontent.com/binaryshrey/luna-backend/refs/heads/main/res/db_tables.png)
+
 
 
 ### 4.3 SQLAlchemy Session
@@ -212,6 +220,8 @@ This is invoked in `seed.py` (and can also be called on startup if desired).
 ## 5. Seeding the Database
 
 To get meaningful recommendations, we pre-populate the DB with realistic data.
+
+![DB Data](https://raw.githubusercontent.com/binaryshrey/luna-backend/refs/heads/main/res/db_data.png)
 
 ### 5.1 What seed.py Does
 
@@ -266,6 +276,10 @@ The server will be available at:
 - API root: `http://127.0.0.1:8000`
 - Swagger UI: `http://127.0.0.1:8000/docs`
 - ReDoc: `http://127.0.0.1:8000/redoc`
+
+The service is deployed on render.com with the LIVE url as : [https://luna-backend-shkw.onrender.com/docs/](https://luna-backend-shkw.onrender.com/docs/)
+
+![Live](https://raw.githubusercontent.com/binaryshrey/luna-backend/refs/heads/main/res/live.png)
 
 <br/>
 
@@ -721,6 +735,9 @@ The test suite uses:
 - **pytest** - Testing framework
 - **httpx** - HTTP client for testing FastAPI endpoints
 - **SQLite in-memory database** - For isolated, fast test execution
+
+### Snapshot of test suite
+![Tests](https://raw.githubusercontent.com/binaryshrey/luna-backend/refs/heads/main/res/tests.png)
 
 ### Running Tests
 
