@@ -346,7 +346,7 @@ The server will be available at:
 
 The service is deployed on render.com with the LIVE url as : [https://luna-backend-shkw.onrender.com/docs/](https://luna-backend-shkw.onrender.com/docs/)
 
-![Live](https://raw.githubusercontent.com/binaryshrey/luna-backend/refs/heads/main/res/live.png)
+![Deploy](https://raw.githubusercontent.com/binaryshrey/luna-backend/refs/heads/main/res/deploy.png)
 
 <br/>
 
